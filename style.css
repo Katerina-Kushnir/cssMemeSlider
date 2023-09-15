@@ -26,6 +26,7 @@ body {
 .slide {
     width: calc(100% / 5);
     height: auto;
+    transition: margin-left 0.5s ease;
 }
 .slide img {
     height: 400px;
@@ -63,16 +64,16 @@ input[name="pagination"] {
 #pagination1:checked ~ .slide1 {
     margin-left: 0;
 }
-#pagination2:checked ~ .slide2 {
+#pagination2:checked ~ .slide1 {
     margin-left: -20%;
 }
-#pagination3:checked ~ .slide3 {
+#pagination3:checked ~ .slide1 {
     margin-left: -40%;
 }
-#pagination4:checked ~ .slide4 {
+#pagination4:checked ~ .slide1 {
     margin-left: -60%;
 }
-#pagination5:checked ~ .slide5 {
+#pagination5:checked ~ .slide1 {
     margin-left: -80%;
 }
 #pagination1:checked ~ .navigation .nav-item1 {
