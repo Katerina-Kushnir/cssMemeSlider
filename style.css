@@ -75,3 +75,23 @@ input[name="pagination"] {
 #pagination5:checked ~ .slide5 {
     margin-left: -80%;
 }
+#pagination1:checked ~ .navigation .nav-item1 {
+    background-color: black;
+    border: 2px solid #fff;
+}
+#pagination2:checked ~ .navigation .nav-item2 {
+    background-color: black;
+    border: 2px solid #fff;
+}
+#pagination3:checked ~ .navigation .nav-item3 {
+    background-color: black;
+    border: 2px solid #fff;
+}
+#pagination4:checked ~ .navigation .nav-item4 {
+    background-color: black;
+    border: 2px solid #fff;
+}
+#pagination5:checked ~ .navigation .nav-item5 {
+    background-color: black;
+    border: 2px solid #fff;
+}
