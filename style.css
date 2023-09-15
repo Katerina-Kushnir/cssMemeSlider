@@ -118,3 +118,21 @@ input[name="pagination"] {
     background-color: black;
     border: .1rem solid #fff;
 }
+
+@media(max-width: 769px) {
+    .slider {
+        width: 29rem;
+    }
+    .slider-items {
+        grid-template-columns: 1fr;
+    }
+    .text-items {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .navigation {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 0 auto;
+    }
+}
