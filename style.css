@@ -26,7 +26,14 @@ body {
 .slide {
     width: calc(100% / 5);
     height: auto;
-    font-size: 100px;
+}
+.slide img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.slide p {
+    margin-top: 40px;
 }
 .navigation {
     position: absolute;
