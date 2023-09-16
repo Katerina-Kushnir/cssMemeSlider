@@ -11,8 +11,10 @@ body {
     height: 100vh;
 }
 .slider {
-    width: 31.25rem;
-    height: 30rem;
+    max-width: 31.25rem;
+    width: 100%;
+    max-height: 30rem;
+    height: 100%;
     overflow: hidden;
 }
 .slider-items {
@@ -33,7 +35,8 @@ body {
     transition: margin-left 0.5s ease;
 }
 .slide img {
-    height: 25rem;
+    max-height: 25rem;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 2%;
@@ -121,14 +124,12 @@ input[name="pagination"] {
 
 @media(max-width: 769px) {
     .slider {
-        width: 20rem;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .slider-items {
         grid-template-columns: 1fr;
         row-gap: 0;
-    }
-    .slide img {
-        height: 16rem;
     }
     .text-items {
         grid-column: 1/2;
