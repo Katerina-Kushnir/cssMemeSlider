@@ -124,8 +124,8 @@ input[name="pagination"] {
 
 @media(max-width: 769px) {
     .slider {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .slider-items {
         grid-template-columns: 1fr;
