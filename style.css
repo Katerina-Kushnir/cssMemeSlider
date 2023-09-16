@@ -121,10 +121,14 @@ input[name="pagination"] {
 
 @media(max-width: 769px) {
     .slider {
-        width: 29rem;
+        width: 20rem;
     }
     .slider-items {
         grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+    .slide img {
+        height: 16rem;
     }
     .text-items {
         grid-column: 1/2;
