@@ -68,6 +68,10 @@ body {
 .nav-item-block:hover {
     opacity: 1;
 }
+label:active .nav-item-block {
+    scale: 1.5;
+    background-color: rgb(0, 149, 255);
+}
 input[name="pagination"] {
     display: none;
 }
